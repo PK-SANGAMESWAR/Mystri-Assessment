@@ -1,0 +1,3 @@
+case_id,request_id,item,decision,reason,evidence
+C018,R018,fault_photo,UNCERTAIN,receipt evidence conflicting: status pending but received_at 2026-09-03T14:00:00+05:30 is populated,E098 2026-09-01T12:00:00+05:30 request_sent: Requested fault photo; E099 2026-09-02T12:00:00+05:30 reminder: Manual follow-up recorded; E100 2026-09-03T14:00:00+05:30 customer_reply: Photo received in another thread
+C022,R022,fault_photo,UNCERTAIN,"last_requested_at is blank, elapsed time unknown",E117 2026-09-03T12:00:00+05:30 request_sent: Requested fault photo

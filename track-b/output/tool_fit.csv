@@ -1,0 +1,5 @@
+action_id,case_id,request_id,item,file_upload_fit,basis
+FU-C009,C009,R009,fault_photo,yes,a photo is a file
+FU-C009,C009,R025,site_access,assumption,only if a photo/document of access details is acceptable; landlord approval may be needed (technician note)
+FU-C024,C024,R024,fault_photo,yes,a photo is a file
+FU-C024,C024,R026,serial_number,assumption,only if a label photo is acceptable; old appliances may have no readable serial label (technician note)

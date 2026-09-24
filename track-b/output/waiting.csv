@@ -1,0 +1,2 @@
+case_id,request_id,item,decision,reason,last_requested_at,eligible_at
+C016,R016,fault_photo,WAIT,"46h00m since last request, under 48h00m",2026-09-05T11:00:00+05:30,2026-09-07T11:00:00+05:30

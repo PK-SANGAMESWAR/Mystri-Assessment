@@ -1,0 +1,129 @@
+event_id,case_id,occurred_at,event_type,active_minutes,detail
+E001,C001,2026-08-24T09:00+05:30,intake,5,Coordinator recorded the case
+E002,C001,2026-08-24T10:00+05:30,request_sent,,Requested fault photo
+E003,C001,2026-08-24T16:00+05:30,customer_reply,0,Fault photo received
+E004,C001,2026-08-24T19:00+05:30,review,5,Checked supplied information
+E005,C001,2026-08-25T11:00+05:30,quote_sent,3,Sent repair quote
+E006,C001,2026-08-25T13:00+05:30,scheduled,3,Visit booked after approval
+E007,C001,2026-08-26T09:00+05:30,completed,1,Coordinator closed the case
+E008,C002,2026-08-24T11:00+05:30,intake,6,Coordinator recorded the case
+E009,C002,2026-08-24T12:00+05:30,request_sent,4,Requested fault photo
+E010,C002,2026-08-24T18:00+05:30,customer_reply,0,Fault photo received
+E011,C002,2026-08-24T21:00+05:30,review,6,Checked supplied information
+E012,C002,2026-08-25T13:00+05:30,quote_sent,3,Sent repair quote
+E013,C002,2026-08-25T15:00+05:30,scheduled,3,Visit booked after approval
+E014,C002,2026-08-26T11:00+05:30,completed,1,Coordinator closed the case
+E015,C003,2026-08-25T09:00+05:30,intake,7,Coordinator recorded the case
+E016,C003,2026-08-25T10:00+05:30,request_sent,2,Requested fault photo
+E017,C003,2026-08-25T16:00+05:30,customer_reply,0,Fault photo received
+E018,C003,2026-08-25T19:00+05:30,review,4,Checked supplied information
+E019,C003,2026-08-26T11:00+05:30,quote_sent,3,Sent repair quote
+E020,C003,2026-08-26T13:00+05:30,scheduled,3,Visit booked after approval
+E021,C003,2026-08-27T09:00+05:30,completed,1,Coordinator closed the case
+E022,C004,2026-08-25T11:00+05:30,intake,8,Coordinator recorded the case
+E023,C004,2026-08-25T12:00+05:30,request_sent,3,Requested fault photo
+E024,C004,2026-08-25T18:00+05:30,customer_reply,0,Fault photo received
+E025,C004,2026-08-25T21:00+05:30,review,5,Checked supplied information
+E026,C004,2026-08-26T13:00+05:30,quote_sent,3,Sent repair quote
+E027,C004,2026-08-26T15:00+05:30,scheduled,3,Visit booked after approval
+E028,C004,2026-08-27T11:00+05:30,completed,1,Coordinator closed the case
+E029,C005,2026-08-26T09:00+05:30,intake,4,Coordinator recorded the case
+E030,C005,2026-08-26T10:00+05:30,request_sent,4,Requested fault photo
+E031,C005,2026-08-27T11:00+05:30,quote_sent,3,Indicative quote sent using information from call
+E032,C005,2026-08-28T09:00+05:30,cancelled,1,Customer chose replacement
+E033,C006,2026-08-26T11:00+05:30,intake,5,Coordinator recorded the case
+E034,C006,2026-08-26T12:00+05:30,request_sent,2,Requested fault photo
+E035,C006,2026-08-26T18:00+05:30,customer_reply,,Fault photo received
+E036,C006,2026-08-26T21:00+05:30,review,4,Checked supplied information
+E037,C006,2026-08-27T13:00+05:30,quote_sent,3,Sent repair quote
+E038,C006,2026-08-27T15:00+05:30,scheduled,3,Visit booked after approval
+E039,C006,2026-08-28T11:00+05:30,completed,1,Coordinator closed the case
+E040,C007,2026-08-27T09:00+05:30,intake,6,Coordinator recorded the case
+E041,C007,2026-08-27T10:00+05:30,request_sent,3,Requested fault photo
+E042,C007,2026-08-27T16:00+05:30,customer_reply,0,Fault photo received
+E043,C007,2026-08-27T19:00+05:30,review,5,Checked supplied information
+E044,C007,2026-08-28T11:00+05:30,quote_sent,3,Sent repair quote
+E045,C007,2026-08-28T13:00+05:30,scheduled,3,Visit booked after approval
+E046,C007,2026-08-29T09:00+05:30,completed,1,Coordinator closed the case
+E047,C008,2026-08-27T11:00+05:30,intake,7,Coordinator recorded the case
+E048,C008,2026-08-27T12:00+05:30,request_sent,4,Requested fault photo
+E049,C008,2026-08-27T18:00+05:30,customer_reply,0,Fault photo received
+E050,C008,2026-08-27T21:00+05:30,review,6,Checked supplied information
+E051,C008,2026-08-28T13:00+05:30,quote_sent,3,Sent repair quote
+E052,C008,2026-08-28T15:00+05:30,scheduled,3,Visit booked after approval
+E053,C009,2026-08-28T09:00+05:30,intake,8,Coordinator recorded the case
+E054,C009,2026-08-28T10:00+05:30,request_sent,2,Requested fault photo
+E055,C009,2026-09-02T12:00+05:30,reminder,2,Manual follow-up recorded
+E056,C010,2026-08-28T11:00+05:30,intake,4,Coordinator recorded the case
+E057,C010,2026-08-28T12:00+05:30,request_sent,3,Requested fault photo
+E058,C010,2026-08-28T18:00+05:30,customer_reply,0,Fault photo received
+E059,C010,2026-08-28T21:00+05:30,review,5,Checked supplied information
+E060,C010,2026-08-29T13:00+05:30,quote_sent,3,Sent repair quote
+E061,C010,2026-08-29T15:00+05:30,scheduled,3,Visit booked after approval
+E062,C010,2026-08-30T11:00+05:30,completed,1,Coordinator closed the case
+E063,C011,2026-08-29T09:00+05:30,intake,5,Coordinator recorded the case
+E064,C011,2026-08-29T10:00+05:30,request_sent,4,Requested fault photo
+E065,C011,2026-08-29T16:00+05:30,customer_reply,0,Fault photo received
+E066,C011,2026-08-29T19:00+05:30,review,6,Checked supplied information
+E067,C011,2026-08-30T11:00+05:30,quote_sent,3,Sent repair quote
+E068,C011,2026-08-30T13:00+05:30,scheduled,3,Visit booked after approval
+E069,C012,2026-08-29T11:00+05:30,intake,6,Coordinator recorded the case
+E070,C012,2026-08-29T12:00+05:30,request_sent,2,Requested fault photo
+E071,C012,2026-09-03T10:00+05:30,reminder,2,Manual follow-up recorded
+E072,C013,2026-08-30T09:00+05:30,intake,7,Coordinator recorded the case
+E073,C013,2026-08-30T10:00+05:30,request_sent,3,Requested fault photo
+E074,C013,2026-08-31T11:00+05:30,quote_sent,3,Indicative quote sent using information from call
+E075,C013,2026-09-01T09:00+05:30,cancelled,1,Price declined
+E076,C014,2026-08-30T11:00+05:30,intake,8,Coordinator recorded the case
+E077,C014,2026-08-30T12:00+05:30,request_sent,4,Requested fault photo
+E078,C014,2026-08-30T18:00+05:30,customer_reply,0,Fault photo received
+E079,C014,2026-08-30T21:00+05:30,review,6,Checked supplied information
+E080,C014,2026-08-31T13:00+05:30,quote_sent,3,Sent repair quote
+E081,C014,2026-08-31T15:00+05:30,scheduled,,Visit booked after approval
+E082,C014,2026-09-01T11:00+05:30,completed,1,Coordinator closed the case
+E083,C015,2026-08-31T09:00+05:30,intake,4,Coordinator recorded the case
+E084,C015,2026-08-31T10:00+05:30,request_sent,2,Requested fault photo
+E085,C015,2026-08-31T16:00+05:30,customer_reply,0,Fault photo received
+E086,C015,2026-08-31T19:00+05:30,review,4,Checked supplied information
+E087,C015,2026-09-01T11:00+05:30,quote_sent,3,Sent repair quote
+E088,C015,2026-09-01T13:00+05:30,scheduled,3,Visit booked after approval
+E089,C016,2026-08-31T11:00+05:30,intake,5,Coordinator recorded the case
+E090,C016,2026-08-31T12:00+05:30,request_sent,3,Requested fault photo
+E091,C016,2026-09-05T11:00+05:30,reminder,3,Manual follow-up recorded
+E092,C017,2026-09-01T09:00+05:30,intake,6,Coordinator recorded the case
+E093,C017,2026-09-01T10:00+05:30,request_sent,4,Requested fault photo
+E094,C017,2026-09-01T16:00+05:30,customer_reply,0,Fault photo received
+E095,C017,2026-09-01T19:00+05:30,review,6,Checked supplied information
+E096,C017,2026-09-02T11:00+05:30,quote_sent,3,Sent repair quote
+E097,C018,2026-09-01T11:00+05:30,intake,7,Coordinator recorded the case
+E098,C018,2026-09-01T12:00+05:30,request_sent,2,Requested fault photo
+E099,C018,2026-09-02T12:00+05:30,reminder,2,Manual follow-up recorded
+E100,C018,2026-09-03T14:00+05:30,customer_reply,0,Photo received in another thread
+E101,C019,2026-09-02T09:00+05:30,intake,8,Coordinator recorded the case
+E102,C019,2026-09-02T10:00+05:30,request_sent,3,Requested fault photo
+E103,C019,2026-09-03T11:00+05:30,quote_sent,3,Indicative quote sent using information from call
+E104,C019,2026-09-04T09:00+05:30,cancelled,1,Customer withdrew request
+E105,C020,2026-09-02T11:00+05:30,intake,4,Coordinator recorded the case
+E106,C020,2026-09-02T12:00+05:30,request_sent,4,Requested fault photo
+E107,C020,2026-09-02T18:00+05:30,customer_reply,0,Fault photo received
+E108,C020,2026-09-02T21:00+05:30,review,6,Checked supplied information
+E109,C020,2026-09-03T13:00+05:30,quote_sent,3,Sent repair quote
+E110,C020,2026-09-03T15:00+05:30,scheduled,3,Visit booked after approval
+E111,C021,2026-09-03T09:00+05:30,intake,5,Coordinator recorded the case
+E112,C021,2026-09-03T10:00+05:30,request_sent,2,Requested fault photo
+E113,C021,2026-09-03T16:00+05:30,customer_reply,0,Fault photo received
+E114,C021,2026-09-03T19:00+05:30,review,4,Checked supplied information
+E115,C021,2026-09-04T11:00+05:30,quote_sent,3,Sent repair quote
+E116,C022,2026-09-03T11:00+05:30,intake,6,Coordinator recorded the case
+E117,C022,2026-09-03T12:00+05:30,request_sent,3,Requested fault photo
+E118,C023,2026-09-04T09:00+05:30,intake,7,Coordinator recorded the case
+E119,C023,2026-09-04T10:00+05:30,request_sent,4,Requested fault photo
+E120,C023,2026-09-04T16:00+05:30,customer_reply,0,Fault photo received
+E121,C023,2026-09-04T19:00+05:30,review,6,Checked supplied information
+E122,C023,2026-09-05T11:00+05:30,quote_sent,3,Sent repair quote
+E123,C024,2026-09-04T11:00+05:30,intake,8,Coordinator recorded the case
+E124,C024,2026-09-04T12:00+05:30,request_sent,2,Requested fault photo
+E005,C001,2026-08-25T11:00+05:30,quote_sent,3,Sent repair quote
+E032,C005,2026-08-28T09:00+05:30,cancelled,1,Customer chose replacement
+E059,C010,2026-08-28T21:00+05:30,review,5,Checked supplied information
+E087,C015,2026-09-01T11:00+05:30,quote_sent,3,Sent repair quote

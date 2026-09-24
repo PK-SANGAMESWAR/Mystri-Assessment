@@ -1,0 +1,14 @@
+{
+  "business": "Daybreak Repairs",
+  "synthetic": true,
+  "observation_start": "2026-08-24",
+  "observation_end": "2026-09-06",
+  "snapshot_at": "2026-09-07T09:00:00+05:30",
+  "currency": "INR",
+  "technicians": 4,
+  "coordinators": 1,
+  "engineering_days_available": 10,
+  "monthly_tool_budget_inr": 1500,
+  "minimum_followup_gap_hours": 48,
+  "dry_run_only": true
+}

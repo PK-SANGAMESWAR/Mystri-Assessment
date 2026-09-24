@@ -1,0 +1,25 @@
+case_id,opened_at,service_type,channel,status,quote_value_inr,status_note
+C001,2026-08-24T09:00+05:30,refrigerator,phone,completed,1025,Visit completed
+C002,2026-08-24T11:00+05:30,air_conditioner,web_form,completed,1150,Visit completed
+C003,2026-08-25T09:00+05:30,washing_machine,email,completed,1275,Visit completed
+C004,2026-08-25T11:00+05:30,refrigerator,phone,completed,1400,Visit completed
+C005,2026-08-26T09:00+05:30,air_conditioner,web_form,cancelled,1525,Customer chose replacement
+C006,2026-08-26T11:00+05:30,washing_machine,email,completed,1650,Visit completed
+C007,2026-08-27T09:00+05:30,refrigerator,phone,completed,1775,Visit completed
+C008,2026-08-27T11:00+05:30,air_conditioner,web_form,scheduled,1900,Visit booked
+C009,2026-08-28T09:00+05:30,washing_machine,email,waiting_info,,Photo and access instructions outstanding
+C010,2026-08-28T11:00+05:30,refrigerator,phone,completed,2150,Visit completed
+C011,2026-08-29T09:00+05:30,air_conditioner,web_form,scheduled,2275,Visit booked
+C012,2026-08-29T11:00+05:30,washing_machine,email,waiting_info,,Customer asked us not to follow up
+C013,2026-08-30T09:00+05:30,refrigerator,phone,cancelled,2525,Price declined
+C014,2026-08-30T11:00+05:30,air_conditioner,web_form,completed,2650,Visit completed
+C015,2026-08-31T09:00+05:30,washing_machine,email,scheduled,2775,Visit booked
+C016,2026-08-31T11:00+05:30,refrigerator,phone,waiting_info,,Photo requested again recently; site access received
+C017,2026-09-01T09:00+05:30,air_conditioner,web_form,quote_sent,3025,Waiting for quote decision
+C018,2026-09-01T11:00+05:30,washing_machine,email,waiting_info,,Photo may have arrived in another thread
+C019,2026-09-02T09:00+05:30,refrigerator,phone,cancelled,3275,Customer withdrew request
+C020,2026-09-02T11:00+05:30,air_conditioner,web_form,scheduled,3400,Visit booked
+C021,2026-09-03T09:00+05:30,washing_machine,email,quote_sent,3525,Waiting for quote decision; no follow-up
+C022,2026-09-03T11:00+05:30,refrigerator,phone,waiting_info,,Last request time not entered
+C023,2026-09-04T09:00+05:30,air_conditioner,web_form,quote_sent,3775,Quote sent recently
+C024,2026-09-04T11:00+05:30,washing_machine,email,waiting_info,,Photo and serial number outstanding

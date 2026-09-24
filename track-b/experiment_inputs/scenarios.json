@@ -1,0 +1,54 @@
+{
+  "note": "Expectations frozen before running (WORKLOG Step 13). Observed values are computed by src/followup_experiment.py and written to output/changed_input_result.json.",
+  "original": {
+    "expected": {
+      "decision_counts": {"PROPOSE": 4, "WAIT": 1, "UNCERTAIN": 2, "EXCLUDED": 23},
+      "action_ids": ["FU-C009", "FU-C024"],
+      "naive_unsafe": 6,
+      "reconciled_unsafe": 0,
+      "accounting": {"proposed_actions": 4, "review_queue": 2, "waiting": 1, "excluded": 23}
+    }
+  },
+  "scenarios": [
+    {
+      "id": "S1_r016_older",
+      "description": "R016 last_requested_at 2026-09-05T11:00+05:30 -> 2026-09-04T11:00+05:30 (46h -> 70h); one field changed",
+      "requests_file": "experiment_inputs/requests_r016_older.csv",
+      "output_dir": "changed",
+      "expected": {
+        "changed_decisions": {"R016": ["WAIT", "PROPOSE"]},
+        "reasons_changed_without_decision_change": [],
+        "decision_counts": {"PROPOSE": 5, "WAIT": 0, "UNCERTAIN": 2, "EXCLUDED": 23},
+        "action_ids": ["FU-C009", "FU-C016", "FU-C024"],
+        "naive_unsafe": 6,
+        "reconciled_unsafe": 0,
+        "accounting": {"proposed_actions": 5, "review_queue": 2, "waiting": 0, "excluded": 23},
+        "exit_status": 0
+      }
+    },
+    {
+      "id": "S2_all_opted_out",
+      "description": "followup_allowed=0 on every pending request (13 rows changed; R012, R028 already 0); no-action input",
+      "requests_file": "experiment_inputs/requests_all_opted_out.csv",
+      "output_dir": "all_opted_out",
+      "expected": {
+        "changed_decisions": {
+          "R009": ["PROPOSE", "EXCLUDED"],
+          "R016": ["WAIT", "EXCLUDED"],
+          "R018": ["UNCERTAIN", "EXCLUDED"],
+          "R022": ["UNCERTAIN", "EXCLUDED"],
+          "R024": ["PROPOSE", "EXCLUDED"],
+          "R025": ["PROPOSE", "EXCLUDED"],
+          "R026": ["PROPOSE", "EXCLUDED"]
+        },
+        "reasons_changed_without_decision_change": [],
+        "decision_counts": {"PROPOSE": 0, "WAIT": 0, "UNCERTAIN": 0, "EXCLUDED": 30},
+        "action_ids": [],
+        "naive_unsafe": 10,
+        "reconciled_unsafe": 0,
+        "accounting": {"proposed_actions": 0, "review_queue": 0, "waiting": 0, "excluded": 30},
+        "exit_status": 0
+      }
+    }
+  ]
+}

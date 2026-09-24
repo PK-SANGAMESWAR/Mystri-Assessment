@@ -1,0 +1,24 @@
+case_id,request_id,item,decision,reason
+C001,R001,fault_photo,EXCLUDED,case is completed
+C002,R002,fault_photo,EXCLUDED,case is completed
+C003,R003,fault_photo,EXCLUDED,case is completed
+C004,R004,fault_photo,EXCLUDED,case is completed
+C005,R005,fault_photo,EXCLUDED,case is cancelled
+C006,R006,fault_photo,EXCLUDED,case is completed
+C007,R007,fault_photo,EXCLUDED,case is completed
+C008,R008,fault_photo,EXCLUDED,case is scheduled
+C010,R010,fault_photo,EXCLUDED,case is completed
+C011,R011,fault_photo,EXCLUDED,case is scheduled
+C012,R012,fault_photo,EXCLUDED,followup_allowed=0 (customer must not be chased)
+C013,R013,fault_photo,EXCLUDED,case is cancelled
+C014,R014,fault_photo,EXCLUDED,case is completed
+C015,R015,fault_photo,EXCLUDED,case is scheduled
+C017,R017,fault_photo,EXCLUDED,"already received: status received, received_at 2026-09-01T16:00:00+05:30"
+C019,R019,fault_photo,EXCLUDED,case is cancelled
+C020,R020,fault_photo,EXCLUDED,case is scheduled
+C021,R021,fault_photo,EXCLUDED,"already received: status received, received_at 2026-09-03T16:00:00+05:30"
+C023,R023,fault_photo,EXCLUDED,"already received: status received, received_at 2026-09-04T16:00:00+05:30"
+C017,R027,quote_approval,EXCLUDED,out of scope: quote_approval is not a missing-information request
+C021,R028,quote_approval,EXCLUDED,out of scope: quote_approval is not a missing-information request
+C023,R029,quote_approval,EXCLUDED,out of scope: quote_approval is not a missing-information request
+C016,R030,site_access,EXCLUDED,"already received: status received, received_at 2026-09-02T14:00:00+05:30"

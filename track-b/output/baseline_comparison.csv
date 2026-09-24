@@ -1,0 +1,7 @@
+metric,baseline,baseline_value,reconciled_value,detail
+requests_proposed,A naive rule,10,4,naive R001|R005|R009|R012|R013|R018|R019|R024|R025|R026; reconciled R009|R024|R025|R026
+unsafe_proposals,A naive rule,6,0,"R001 case completed, receipt evidence (received_at populated or status received); R005 case cancelled; R012 followup_allowed=0; R013 case cancelled; R018 receipt evidence (received_at populated or status received); R019 case cancelled"
+outgoing_messages,A naive rule,10,2,naive: one per request; reconciled: one per case
+distinct_cases_contacted,A naive rule,8,2,naive messages the same case more than once: C009|C024
+routed_to_review,A naive rule,0,2,reconciled R018|R022; naive has no review path (blank-time rows fail its filter)
+coordinator_decisions,B manual review,12,4,manual inspects every pending missing-info row R001|R005|R009|R012|R013|R016|R018|R019|R022|R024|R025|R026; reconciled: approve 2 actions + resolve 2 review rows; not converted to minutes

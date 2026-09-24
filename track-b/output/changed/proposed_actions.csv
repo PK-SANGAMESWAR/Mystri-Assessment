@@ -1,0 +1,4 @@
+action_id,case_id,request_ids,missing_items,channel,contact_address,decision,reason,snapshot_at
+FU-C009,C009,R009|R025,fault_photo|site_access,email,case-009@example.invalid,PROPOSE,"R009: outstanding, 117h00m since last request, at least 48h00m; R025: outstanding, 117h00m since last request, at least 48h00m",2026-09-07T09:00:00+05:30
+FU-C016,C016,R016,fault_photo,email,case-016@example.invalid,PROPOSE,"R016: outstanding, 70h00m since last request, at least 48h00m",2026-09-07T09:00:00+05:30
+FU-C024,C024,R024|R026,fault_photo|serial_number,email,case-024@example.invalid,PROPOSE,"R024: outstanding, 69h00m since last request, at least 48h00m; R026: outstanding, 69h00m since last request, at least 48h00m",2026-09-07T09:00:00+05:30
